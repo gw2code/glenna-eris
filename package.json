@@ -1,0 +1,21 @@
+{
+  "name": "glenna-eris",
+  "version": "1.0.0",
+  "description": "GW2 Discord bot",
+  "main": "index.js",
+  "author": "Thyr",
+  "license": "MIT",
+  "dependencies": {
+    "eris": "^0.9.0",
+    "erlpack": "^0.1.2",
+    "mongodb": "^3.1.10",
+    "nconf": "^0.10.0"
+  },
+  "scripts": {
+    "start": "node start.js"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
